@@ -1,0 +1,28 @@
+.home {
+  .hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)), url(../images/tour-01.jpg);
+    height: 1200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .heroTitle {
+      font-size: 100px;
+      color: #fff;
+      font-weight: 700;
+      padding-left: 150px;
+      padding-top: 200px;
+    }    
+    .heroTitle2 {
+      font-size: 100px;
+      color: #fff;
+      font-weight: 700;
+      padding-left: 150px;
+    }
+  }
+
+  // .homeStuff {
+  //   margin: auto;
+  //   max-width: $content-width;
+  // }
+}
