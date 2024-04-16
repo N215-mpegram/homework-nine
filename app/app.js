@@ -224,17 +224,37 @@ var contactContent = `      <div class="contact">
 </div>
 </div>`
 
-function initListeners() {
-    $("nav a").on("click", (e) => {
-        let btnID = e.currentTarget.id;
-        let pageContent = btnID + "Content";
-        console.log(eval(pageContent));
+// function initListeners() {
+//     $("nav a").on("click", (e) => {
+//         let btnID = e.currentTarget.id;
+//         let pageContent = btnID + "Content";
+//         console.log(eval(pageContent));
 
-        $("#app").html(eval(pageContent));
-    })
+//         $("#app").html(eval(pageContent));
+//     })
+// }
+
+// $(document).ready(function () {
+//     $("#app").html(homeContent);
+//     initListeners();
+// })
+
+// import * as MODEL from "../model/model.js"
+import {loadPage,mixWords} from "../model/model.js"
+
+function changeRoute() {
+let hashTag = window.location.hash;
+ let pageID = hashTag.replace("#", "");
+  console.log(hashTag + " " + pageID);
+  loadPage(pageID);
+}
+
+function initURLListener() {
+$(window).on("hashchange", changeRoute);
+changeRoute();
 }
 
 $(document).ready(function () {
-    $("#app").html(homeContent);
-    initListeners();
-})
+    // loadPage("home");
+    initURLListener();
+});
