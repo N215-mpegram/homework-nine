@@ -1,6 +1,6 @@
 .home {
   .hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)), url(../images/tour-01.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.35),rgba(0, 0, 0, 0.35)), url(../images/japan-tour-01.jpg);
     height: 1200px;
     background-position: center;
     background-repeat: no-repeat;
@@ -19,10 +19,27 @@
       font-weight: 700;
       padding-left: 150px;
     }
+    .heroText {
+      font-size: 40px;
+      color: #fff;
+      font-style: italic;
+      padding-top: 30px;
+      padding-left: 150px;
+    }
   }
 
   // .homeStuff {
   //   margin: auto;
   //   max-width: $content-width;
   // }
+}
+
+.pageTitle {
+  text-align: center;
+  font-size: 50px;
+  width: 90%;
+  height: 80px;
+  border-bottom: 3px solid $site-blue;
+  margin: auto;
+  font-weight: 600;
 }
