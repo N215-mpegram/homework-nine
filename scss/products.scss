@@ -3,6 +3,89 @@
     margin: auto;
     max-width: $content-width;
 
+    .productTiles {
+        min-height: 200px;
+        margin-top: 100px;
+        // background-color: antiquewhite;
+
+        .tile1 {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            margin-bottom: 12px;
+            
+            .pro1 {
+                width: $tile-WH;
+                height: $tile-WH;
+                background-color: burlywood;
+                background-image: url(../images/tour-04.jpg);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .pro2 {
+                width: $tile-WH;
+                height: $tile-WH;
+                background-color: burlywood;
+                background-image: url(../images/tour-02.jpg);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .pro3 {
+                width: $tile-WH;
+                height: $tile-WH;
+                background-color: burlywood;
+                background-image: url(../images/tour-08.jpg);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        }
+        .tile2 {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            
+            .pro4 {
+                width: $tile-WH;
+                height: $tile-WH;
+                background-color: burlywood;
+                background-image: url(../images/tour-07.jpg);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .pro5 {
+                width: $tile-WH;
+                height: $tile-WH;
+                background-color: burlywood;
+                background-image: url(../images/tour-03.jpg);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .pro6 {
+                width: $tile-WH;
+                height: $tile-WH;
+                background-color: burlywood;
+                background-image: url(../images/egypt-tour-02.jpg);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        }
+    }
+
+    .line {
+        width: 90%;
+        height: 3px;
+        background-color: $site-blue;
+        margin: auto;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
     .project {
         margin-top: 50px;
 
@@ -21,7 +104,7 @@
             .workText {
                 margin-left: 30px;
                 margin-top: 30px;
-                width: 700px;
+                width: 600px;
             }
         }
     }
