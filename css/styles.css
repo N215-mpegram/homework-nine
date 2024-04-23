@@ -61,6 +61,7 @@ nav a {
   border-bottom: 3px solid #79ADDC;
   margin: auto;
   font-weight: 600;
+  margin-bottom: 100px;
 }
 
 .about {
@@ -272,7 +273,7 @@ nav a {
 .contact .contactform .formInfoMap .formInfo {
   display: flex;
   flex-direction: column;
-  margin-right: 20px;
+  margin-left: 20px;
   width: 700px;
 }
 .contact .contactform .formInfoMap .formInfo .formInput {
